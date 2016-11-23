@@ -6,10 +6,116 @@
 	</head>
 	<body>
 		
-
+	<link rel="stylesheet" type="text/css" href="css/styles.css" media="screen" />
 		<script src="js/jquery-3.1.1.js" />
 		<script src="js/app.js" />
 		<script type="text/javascript">
 		</script>
+
+
+		<form action="" method="post">
+	    <fieldset>
+	        <legend>Student Application Form</legend>
+	        <div>
+	            <label for="admission">Admission needed for (required):</label>
+	            <select>
+	              <option value="select">Select</option>
+				  <option value="Class7">Class 7</option>
+				  <option value="class8">Class 8</option>
+				  <option value="class9">Class 9</option>
+				  <option value="class10">Class 10</option>
+				</select>
+	            
+	        </div>
+	        <div>
+	            <label for="firstName">First Name (required):</label>
+	            <input type="text" id="firstName" name="firstName" value="" aria-describedby="name-format" maxlength="50">
+	        </div>
+	        <div>
+	            <label for="middleName">Middle Name:</label>
+	            <input type="text" id="middleName" name="middleName" value="" aria-describedby="name-format" maxlength="50">
+	        </div>
+	        <div>
+	            <label for="lastName">Last Name (required):</label>
+	            <input type="text" id="lastName" name="lastName" value="" aria-describedby="name-format" maxlength="50">
+	        </div>
+	        <div>
+	            <label for="gender">Gender (required):</label>
+	            <div >
+	            	<input type="radio" id="genderM" name="gender" value="male" checked> Male
+		        </div>
+		        <div width="1px">
+		        	<input type="radio" id="genderF" name="gender" value="female"> Female
+		        </div>
+		    </div>
+	        <div>
+	            <label for="dob">Date of Birth (required):</label>
+	            <input type="text" id="dob" name="dob" value="" aria-describedby="name-format" maxlength="50">
+	            <span id="name-format" class="help">Format: DD/MM/YYYY</span>
+	        </div>
+	        <div>
+	            <label for="nationality">Nationality:</label>
+	            <input type="text" id="nationality" name="nationality" value="" maxlength="50">
+	        </div>
+	        <div>
+	            <label for="category">Category:</label>
+	            <select>
+	              <option value="select">Select</option>
+	              <option value="general">General</option>
+				  <option value="sc">SC</option>
+				  <option value="st">ST</option>
+				  <option value="obc">OBC</option>
+				  <option value="others">Others</option>
+				</select>
+				<input type="text" id="otherCategory" name="otherCategory" value="" maxlength="50">
+	        </div>
+	        <div>
+	            <label for="addressLine1">Address Line 1:</label>
+	            <input type="text" id="addressLine1" name="addressLine1" value="" maxlength="50">
+	        </div>
+	        <div>
+	            <label for="addressLine2">Address Line 2:</label>
+	            <input type="text" id="addressLine2" name="addressLine2" value="" maxlength="50">
+	        </div>
+	        <div>
+	            <label for="city">City:</label>
+	            <input type="text" id="city" name="city" value="" maxlength="50">
+	        </div>
+	        <div>
+	            <label for="state">State:</label>
+	            <input type="text" id="state" name="state" value="" maxlength="50">
+	        </div>
+	        <div>
+	            <label for="postalCode">Postal Code:</label>
+	            <input type="text" id="postalCode" name="postalCode" value="" maxlength="6">
+	        </div>
+	        <div>
+	            <label for="phone">Phone:</label>
+	            <input type="text" id="phone" name="phone" value="" maxlength="20">
+	        </div>
+	        <div>
+	            <label for="mobile">Mobile:</label>
+	            <input type="text" id="mobile" name="mobile" value="" maxlength="10">
+	        </div>
+	        <div>
+	            <label for="email">Email (required):</label>
+	            <input type="text" id="email" name="email" value="" maxlength="100">
+	        </div>
+	        <div>
+	            <label for="prevInstitution">Name of Previous school/crèche/nursery/pre-school:</label>
+	            <input type="text" id="prevInstitution" name="prevInstitution" value="" maxlength="100">
+	        </div>
+	        <div>
+	            <label for="percentage">Percentage marks secured in previous school:</label>
+	            <input type="text" id="percentage" name="percentage" value="" maxlength="4">
+	        </div>
+	        
+	        <div class="submit">
+	            <input type="submit" value="Submit">
+	        </div>
+	    </fieldset>
+	</form>
+
+
 	</body>
 </http>
