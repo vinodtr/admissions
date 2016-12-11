@@ -9,8 +9,12 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "body-parser": "^1.15.2",
+    "client-sessions": "^0.7.0",
     "express": "^4.14.0",
     "mysql": "^2.12.0",
-    "node-mysql": "^0.4.2"
+    "node-mysql": "^0.4.2",
+    "sequelize": "^3.27.0",
+    "visualcaptcha": "^0.1.2"
   }
 }

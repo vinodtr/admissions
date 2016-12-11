@@ -22,6 +22,11 @@ fieldset > legend + div {
 fieldset > div:last-child {
     margin-bottom:0;
 }
+label.error{
+  color: #ff0000;
+  width:auto;
+  padding-left: 10px;
+}
 label {
     display:inline-block;
     width:170px;
@@ -32,6 +37,12 @@ input {
 input[type="submit"] {
     width:auto;
 }
+input[type="radio"] {
+    width:auto;
+}
+input[type="button"] {
+    width:auto;
+}
 .help {
     display:none;
     font-size:90%;
@@ -39,6 +50,12 @@ input[type="submit"] {
 input:focus + .help {
     display:inline-block;
 }
-div.submit {
+div.submitButton {
     margin-left:170px;
 }
+.loader {
+    position: absolute; width: 100%; height: 100%; background: url('/images/page-loader.gif') no-repeat center center;
+}
+
+
+
